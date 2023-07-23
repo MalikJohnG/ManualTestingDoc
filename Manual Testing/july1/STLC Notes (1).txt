@@ -1,0 +1,80 @@
+STLC:
+Sequence of differenct activities performed by testing team to ensure the quality of the s/w product.
+1.Requirement analysis:
+They analyse the requirements in the testing perspective. Here if the testing team have any doubts they conduct a meeting with BA,Dev team,all stake holders.Once they
+clarified all the doubts, they will prepare 
+   i) Automation feasibility report:
+         In this report, they do have set of questions and they provide scores
+      IF the score is ab0ve 70 --> They can go ahead for automation
+      IF the score is below 50 --> They dont 
+       If it is between 50 to 70 --> they have to submit proof of concept to the client.
+   ii)RTM 
+
+         RTM--> Requirement Traceability Matrix document
+              They just maps all the business requiremnts with the test cases.
+With the help of RTM they just find the test coverage and missing test cases.
+
+2.Test planning:
+
+Test lead/Manager will involve in this phase. They used to prepare 2 documents:
+  i) Test strategy  --> It is a high level document which contains the over all approach for an entire
+testing process which will be prepared by test lead/manager.
+       It varies from organisation to organisation but inside an org it is same for all the projects.
+
+  ii)Test plan(scope/objective)  -->It is a high level document which contains all the planning activties for an entire
+testing process which will be prepared by test lead/manager.
+         Test plan document contains:
+          a)scope 
+          b)objectives 
+          c)features to be tested 
+          d)features not to be tested
+          e)Cost and time estimation 
+          f)risk and mitigation(solution) 
+          g)staffing and training 
+
+        It varies from project to project inside an organisation. 
+
+3. Test case preparation/development:
+     IF it is a manual project, they will write the test cases
+     IF it is an automation project, they will write the test scripts.
+
+Test scenario  ---> document which contains what are all the functionalities needs to be tested?
+
+Test case --->how the functionalities needs to be tested?
+
+
+4.Environmental setup:
+
+The set of hardware,software,network needs to be configured and installed for the entire testing process.
+In this phas, they will do smoke testing also. Testing whether the major/critical functionalities are working fine.
+They prepare test data also.
+
+5. Test execution:
+
+They execute all the test cases what they have created.
+During my learning process, i have executed N number of test cases and test scripts and found many defects.
+I have logged the defects in jira which is a bug tracking tool.
+
+6.Test closure
+
+They close the cycle once all the test cases are executed and if there is no high severity bugs they close the cycle
+In this phase they prepare Test summary report or closure report which contains,
+How many test cases prepared, how many test cases executed, out of that how many passed?failed?
+Out of failed test cases how many bugs gets closed,open
+Out of open defects how many comes under high severity and low severity?
+If there is no high severity we can close the cycle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

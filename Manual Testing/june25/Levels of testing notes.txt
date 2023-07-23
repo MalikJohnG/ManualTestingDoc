@@ -1,0 +1,67 @@
+Levels of testing:
+1.Unit testing  -->Done by developers
+
+Unit  ---> It is the smallest testable part of the s/w
+Unit Testing-->   Testing the individual part of the s/w app
+Dev --->Write the code/exe the code
+Done by developers.
+In programming, Unit means the Smallest block of code.
+It comes under white box testing.
+main()            un()
+{                 {
+------
+------
+}                }
+
+Ex:
+Login
+UN:  
+PWD:
+Login:    --->Testing the individual unit   --->UT   
+
+2.Integration testing
+
+Once all the units gets tested
+Integrating ---> Combining the 2 or more logically related modules to check the data connectivity b/w the modules
+
+Ex:  In gmail, login,home page and compose email  -->U want to integrate these 3 modules
+
+navigating from 1 w/w to other w/w  -->here we can check data conn  -->Login to home page navigation
+
+Ex: PAyment gate way  -->  if u select any upi -->from the application(amazon/zomato) --> it will navigates to 3rd party appl(phonepe,gpay,paypal)
+API -->Application PRogramming interface call -->Invoke this code -->so that data connection happens
+It is done by either developers or testers. It is done rarely by testers
+
+Approaches:
+1.Big bang
+2.Incremental
+
+Bigbang:
+All the units gets integrated at once.
+So fault localisation is difficult and testers have to wait until all the modules gets developed.
+
+
+Incremental approach:
+Here if any modules not available they will use dummy modules called stub and driver.
+Stub and driver do not implement entire programming logic but it just simulate the data connectivity between the modules.
+
+Top down approach:
+They will use stub if any low level module is not avaialble
+
+Bottom up approach:
+They will use driver if any high level module is not available
+
+sandwich approach:
+They will use both stub and driver(combination of both top down and bottom up approach)
+
+System testing:
+Once all the units gets integrated testing the application is tested as a whole from end to end is called system testing.
+It is done by testers.
+It comes under black box testing.
+
+Acceptance testing
+It is done for customer acceptance.
+Internal Acceptance Testing : (Alpha Testing)
+Testing which is done at developers site.
+External Acceptance testing: (Beta Testing)
+Testing which is done at end user site.

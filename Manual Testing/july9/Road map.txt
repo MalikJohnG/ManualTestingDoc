@@ -1,0 +1,79 @@
+Basics of QA
+   What is testing?Manual and automation testing?when to start,stop?
+   Difference between testing and debugging,TEsting myths.
+
+SDLC ---> What is SDLC?
+          6 phases --> BRS,SRS,FRS,HLD,LLD
+SDLC Models/Methodologies
+
+Water fall --> What,When to use, Pros and cons
+
+V-model --->What,When to use, Pros and cons, What is verification and validation?
+
+Agile --> Why agile over waterfall? , What is agile? what is scrum? what is framework?
+
+usage of framework? Sprint,duration? Roles of SCRUM : PO,SM,Scrum team
+
+User story, EPic, PB,SB,spill over
+
+Zero sprint
+
+Scrum Meetings --> 5 -> SGM, SPM, DSM, SRM,SREM
+
+
+2nd week:
+
+STLC --> What is?
+
+6 phases --> AFR, RTM, TP,TS,
+
+Test case preparation --> class room: pen, waterbottle
+
+Assignment : Gmail and e-commerce
+
+Test design techniques --> why we are using Test design techniques? 
+
+What is static? and its types -->Reviews & static analysis
+
+What is Dynamic --> categories 
+
+WBT --> 4 techniques --> Statement coverage, Decision coverage, branch,mutilple condition coverage
+
+BBT --> ECP,BVA --> Data enumeration techniques
+Decision Table Testing State Transition Testing,UseCaseTesting ---> Test enumeration techniques
+
+Experinced based --> Exploratory and error guessing
+
+Week 3
+
+Types of testing
+
+Non- functional  --> what? types
+
+1.PErformance --> load,stress,scalability and stability
+2.Usability --> UI testing
+3.compatibility -->browser compatibility
+4.Accessiblity
+5.Security
+
+Functional --> Unit,Integration,System
+
+Smoke,sanity, regression, re-testing, adhoc,monkey
+
+Bug life cycle -->stages
+
+Severity -->It is a measure to indicate the impact of the bug in the software
+
+Priority --> It refers to how urgently the bug needs to get fixed.
+
+Once u find the defect, u need to assign it to the developer with severity and priority
+
+U need to set priority and severity for the defect u have found.
+
+even if it is bug report (in excel) u need to set severity and priority or if u wants to log the defect in jira .
+
+
+
+
+
+

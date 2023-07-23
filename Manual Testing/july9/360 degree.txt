@@ -1,0 +1,29 @@
+Test case :
+  
+It should be very clear and understandable
+
+Test data -->Data enumeration(Generation)
+
+Data enumeration techniques
+
+1.ECP   2.BVA
+
+
+Test/test case enumeration techniques
+
+Decision table   State transition    
+USe case testing -->With the help of these techniques we can generate the test cases
+
+360 degree
+
+F(france)  --> Functional testing(Unit,Integration,smoke,system,sanity,re-testing,regression)
+
+p(paris)  --->Performance testing(load,stress)
+
+
+U  --->Usablity
+
+S ---->Security
+
+A ---->Accessiblity testing
+

@@ -1,0 +1,191 @@
+Why we are using test design techniques?
+Exhaustive testing is not possible so to reduce the size of an input and to select the good set of tests/test cases
+we are using test design techniques.
+
+Two main categories of Test Design Techniques are:
+
+a. Static Techniques   
+b. Dynamic Techniques
+
+Static Techniques:
+Checking/Testing of the software documents or code manually or with a set of tools but without executing it.
+
+Two types of static testing techniques:
+Reviews (Manual Examination)
+Static Analysis (Automated Analysis)
+
+1. Reviews	
+Types of Reviews
+Informal Review
+Walkthrough
+Technical Review
+Inspection
+
+2. Static Analysis
+Static analysis tools are typically used by developers, check the code with out executing, find the compile time error.
+
+Dynamic Techniques:
+Dynamic test design techniques involve testing by running/executing the System Under Test(SUT) or Application Under Test(AUT)
+In this technique, the tester provides input data to the application and executes it. This is done to verify its 
+different functional and non-functional requirements.
+
+Categories of Dynamic Test Design Techniques:
+
+Specification-based or Black-box Techniques:
+Equivalence Partitioning (EP)
+Boundary Value Analysis (BVA)
+Decision Table Testing
+State Transition Testing
+Use Case Testing
+
+Structure-based or White-box Techniques:
+Statement Testing and coverage
+Decision Testing and Coverage
+Condition Testing, Multi Condition Testing
+
+Experience-based Techniques:
+Error Guessing
+Exploratory Testing
+
+White box testing:
+Here they focus on internal structure and logic of code,so only it is called as Structural-based technique.
+Other names are Glass box,clear box,open box testing.Code is visible.
+It is done by developers. Unit testing comes under WBT.
+
+WBT Techniques:
+i)Statement or line coverage:
+No.of lines executed / Total no.of lines of code  X 100
+ii)Condition coverage:
+Condition coverage ensures whether all the Boolean expressions have been covered and evaluated to both TRUE and FALSE.
+iii)Decision/Branch coverage:
+Each condition in a decision takes on all possible outcomes at least every branch (decision) is either true and false.
+It is helpful to validate all branches in the code to make sure that no branch leads to any abnormal behavior.
+iv)Multiple Condition Coverage:
+Every combination of ‘true’ or ‘false’ for the conditions related to a decision has to be tested in this technique.
+
+Black box testing:
+Here they focus on what kind of input we have to provide and check whether the output meets the customer specifications or not.
+So, only it is called specification-based technique.
+It is done by testers.
+
+BBT Techniques:
+1.Equivalence Class Partitioning (ECP)
+
+Here, if the range of values is there as an input we can use ECP.
+ECP means the partition the range of values in to equal classes, 
+out of each classes or partition we have to select one 
+value as an input
+
+Ex: In sales force application, while creating a new lead in a new lead functionality, 
+in the first name field
+we can apply ECP. 
+Consider, Fisrt name field accepts 1-40 chars.
+So, here the range of value is between 1 to 40.SO, 
+by applying ECP we can partition the range of values as an input.
+1-10  11-20  21-30  31-40  --> 4 classes-->valid i/p-->+ve testing
+Below 1 and above 40(any value) -->2 classes-->invalid i/p-->-ve testing
+
+U can partition in the below manner also:
+1-20  21-40 --> 2 classes-->valid i/p-->+ve testing
+Below 1 and above 40(any value) -->2 classes-->invalid i/p-->-ve testing
+
+2.Boundary Value Analysis:(BVA)
+We can apply BVA whenever the range of values occurs.
+In BVA we used to focus on the boundaries only.
+
+Consider the same example, Fisrt name field accepts 1-40 chars.
+So, here the range of value is between 1 to 40.SO, by applying BVA 
+we used to focus on boundaries only.
+
+A=1(Lower boundary)  B=40(Upper boundary)
+
+A-1,A,A+1,B-1,B,B+1
+
+0,1,2,39,40,41
+
+1,2,39,40--> valid i/p-->+ve testing
+0,41-->invalid i/p -->-ve testing
+
+Note: Positive Testing: Providing the valid inputs.
+      Negative Testing: Providing the invalid inputs.
+
+3.Decision Table Testing:
+A Decision Table is a tabular representation of conditions(i/p) versus test actions(o/p). 
+Conditions are considered as inputs, while actions are considered as outputs.
+We can use a formula 2^n --> Here n is the number of input condition
+Example:
+In a login functionality, inputs are UserName and PassWorD.
+2 inputs --> 2^n =2^2= 4 outputs.
+
+UN      PWD     O/P(Login)
+True    True	True
+False	True	False
+True	False	False
+False	False 	False
+
+Test to verify whether the user can able to login by providing
+invalid un and valid PWD(N)
+
+Example 2:
+ A submit button in a contact form is enabled only when all the inputs are entered 
+by the end user
+But Name,Email fields are mandatory one, Message option is not mandatory
+2^3=8 
+
+Name   Email	Message		Ouput(Submit)
+True	True	True		True
+True	False	True		False
+False	False	True		False
+True	False	False		False
+True	True	False		True
+False	True	True		False
+False   True	False		False
+False	False	False		False
+
+Test to verify whether the user can able to submit the form 
+by leaving the message option as empty
+ER: It should allow the user to submit the form
+    It has to allow the user to submit the form
+
+4.State Transition Diagram:
+In State Transition technique changes in input conditions change the state of the Application Under Test (AUT). 
+Application state gets transmitted from one to another based on the input given by the user.
+This testing technique allows the tester to test the behavior of an AUT. 
+
+The tester can perform this action by entering various input conditions in a sequence. 
+
+In State transition technique, the testing team provides positive as well as negative input test values for 
+evaluating the system behavior.
+
+5.Use case testing:
+A use case is not a part of execution it is only a diagrammatic presentation 
+of a document that specifies how to perform a certain task. 
+Use case can be designed in a diagrammatic representation or 
+tabular but test case we design only in tabular format.
+USe case we can't execute but test case is an executable part.
+
+iii)Experience based Technique:
+
+Exploratory testing:
+Usually, this process is carried out by domain experts. 
+They perform testing just by exploring the functionalities of the application without having the knowledge of the 
+requirements or with out the help of any req's documents.
+Based on their experience they just explore an application and High severity bugs are 
+found very quickly.
+
+Error Guessing:
+Error guessing is one of the testing techniques used to find bugs in a software application based on the tester’s
+prior experience. In Error guessing, no specific rules are applied.
+
+
+	
+
+
+
+
+
+
+
+
+
+

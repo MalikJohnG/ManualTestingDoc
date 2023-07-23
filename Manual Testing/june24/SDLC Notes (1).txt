@@ -1,0 +1,134 @@
+SDLC -->Software Development Lifecycle
+
+SDLC --> It is a structured process to deliver the high-quality,low cost product
+with in a shortest possible duration of time.
+
+There are 6 phases:
+
+1.Requirement Analysis
+2.Design
+3.Development
+4.Testing
+5.Deployment
+6.Maintenance
+
+1.Req analysis:
+
+Business Analyst --> collects the requirements from the client and analyse it
+BRS --> Business Requirement Specification document -->prepared by BA
+BRS contains all the business req's which is collected from the client
+
+BA conduct a meeeting with the technical leads, discuss about the req's with them.
+If the technical leads have some doubts they will clarify with the BA.
+
+Once the technical leads are ok with the req's they will prepare 2 documents:
+
+1.FRS  -->  Functional Requirement Specification document which contains all the functionalities explained in a detailed way in a flow chart representation
+
+FRS is an answer for how to reach the expectancy of BRS. 
+
+ex: Gmail app  --->  Login, Home page, compose email, sent mail, trash,spam,starred,outbox,primary,social, etc.,
+
+2.SRS  --> Software/System Requirement Specification document
+
+Field specification --> In the functionality each field gets described in a detailed way:
+1.Login
+In the login, UN,PWD,forgot password these are the fields available.These fields gets described in a detailed way:
+
+i)User name --> It is a mandatory field and its a text box which contains email address(which should be valid)
+ii)Password  --> It is a mandatory field that should be valid.Should be masked.
+Login button should gets enabled after providing valid UN and valid PWD.
+
+2. Home page
+IT should contains all the modules(compose email,promotion etc)
+
+BAsed on SRS, testers starts writing the test cases and developers starts write the code
+
+2. Design:
+
+i) HLD --> High level design
+
+Macro level design document
+Prepared by domain expert(Solution Architect)
+They convert business req's in to high level solutions
+It contains the over all architecture of an application
+
+With the help of HLD, they will design a table, design a database
+
+ii)LLD --> Low level design
+
+Micro level design document
+Prepared by designers 
+They convert high level solutions in to detailed solutions
+IT contains the detailed description about each and every modeules of an application
+With the help of LLD, they will get program or code specification.
+
+3.Development:
+With the help of program or code specification and SRS, the developers start writing the code and develop an application
+100 modules -- > 10 developers
+divide the task -->10 x 10 -->100
+Once Unit testing is completed by the dev they will send it to the testing team.
+
+4.Testing:
+login -->functionality,feature,module  -->all are same
+Once the testing team received the build from the dev team. they start testing by executing the test cases (for manual)
+they start testing by executing the test scripts (for automation)
+
+While executing the test cases, they find defects (the failed test case)
+Once they find, have to assigned it to the dev team(developers)
+DEV team should fix the defects/bugs.once all the bugs gets fixed they send it to the testing team.
+The testers have to test it again (Re-testing--> Testing the failed test cases again after the
+bug gets fixed by the develeoper) 
+This process gets continues till all the bugs gets fixed and there is no high priority & high severity bugs.
+Once the testing team feels an application is stable and it is defect free, they can send it to the deployment team.
+
+5.Deployment phase:
+They will deploy(deliver) an application into the client environment(production server)
+DevOps team --> It will be done by DevOps team.  DevOps--> They do have both development and operational knowledge
+
+6.Maintenance phase:
+
+Once the product gets delivered to the client, an end users start using an application now.
+
+They can able to find the defects / they can give enhancement.
+In this phase, they will work on how to fix it and how to work on enhancement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
